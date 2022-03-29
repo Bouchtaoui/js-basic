@@ -6,12 +6,18 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-.vars {
-    background-color: azure;
-    margin: 2px;
-}
 .container {
     width: 800px;
     margin: 0 auto;
     background-color: aquamarine;
+}
+
+.divider {
+    height: 20px;
+    background-color: gray;
+}
+.vars {
+    background-color: azure;
+    margin: 2px;
+    border-bottom: 1px solid aquamarine;
 }
